@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;09-SB-MVC-QueryParam&apos; to &apos;10-SB-MVC-QueryParam&apos;" description="Rename resource &apos;09-SB-MVC-QueryParam&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/09-SB-MVC-QueryParam" name="10-SB-MVC-QueryParam" stamp="1613921532201" updateReferences="true"/>
+</session>

@@ -1,0 +1,9 @@
+package com.sit.collections;
+
+public class Main {
+
+	public static void main(String[] args) {
+		 SingletonExample instance = SingletonExample.getInstance();
+		 System.out.println("=---"+instance.hashCode());
+	}
+}

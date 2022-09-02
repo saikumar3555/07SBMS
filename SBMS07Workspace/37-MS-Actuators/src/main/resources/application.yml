@@ -1,0 +1,21 @@
+server:
+  port: 9090
+
+info:
+ app:
+  name : Boot-Actuator-proj
+  version: 1.0
+  developer: Abdul Sai
+  mail: abdul@it.com
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        exclude: beans,mappings
+        
+  endpoint:
+    shutdown:
+     enabled: true
+        

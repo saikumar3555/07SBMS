@@ -1,0 +1,5 @@
+package com.sit.service;
+
+public class MyApplicationRunner {
+
+}

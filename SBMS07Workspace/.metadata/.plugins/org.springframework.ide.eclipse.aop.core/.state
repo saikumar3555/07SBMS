@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="19-SB-REST-GET-QueryParam"/>
+<aop-project name="31-SB-ZUEAL_PROXY_API_GATEWAY"/>
+<aop-project name="33-MS-STOCK-PRICE-API"/>
+<aop-project name="21-SB-REST-POST"/>
+<aop-project name="34-STOCK-CALC-API"/>
+<aop-project name="36-MS-STOCK-APP-ZUUL-PROXY-API"/>
+<aop-project name="37-MS-Actuators"/>
+<aop-project name="06-SB-DATA-JPA-CrudRepository"/>
+<aop-project name="18-SB-REST-GET-REQT-APP"/>
+<aop-project name="15-SB-REST-App1"/>
+<aop-project name="22-SB-REST-PUT"/>
+<aop-project name="38-MS-Actuator-Admin-Server"/>
+<aop-project name="29-SB-EUREKA-ClIENT-WELCOME-APP"/>
+<aop-project name="10-SB-MVC-QueryParam"/>
+<aop-project name="000-Standalone"/>
+<aop-project name="42-Apace-Kafka"/>
+<aop-project name="23-SB-REST-DELETE"/>
+<aop-project name="35-MS-STOCK-EUREKA-SERVER-APP"/>
+<aop-project name="32-SB-h2-database"/>
+<aop-project name="41-MS-Basic-Auth-Resource-App"/>
+<aop-project name="28-SB-ServiceRegistry_UREKA"/>
+<aop-project name="24-SB-REST-HATEOAS"/>
+<aop-project name="39-MS-Actuator-Admin-Client1"/>
+<aop-project name="25-SB-REST-Resttemplate_client"/>
+<aop-project name="30-SB-EUREKA-ClIENT-GREET-APP"/>
+<aop-project name="40-MS-Multi_DB_Config_Circuit_Breaker"/>
+</aop-reference-model>

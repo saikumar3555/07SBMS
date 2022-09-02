@@ -1,0 +1,46 @@
+package com.sit;
+
+import java.util.Arrays;
+import java.util.Optional;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.sit.repository.Student;
+import com.sit.repository.StudentRepository;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
+		StudentRepository studentRepository = context.getBean(StudentRepository.class);
+		
+		// To save or update Record 
+		/*Student s1 = new Student();
+		s1.setStudentId(104);
+		s1.setStudentName("RamyaSri");
+		s1.setStudentEmail("Ramya.1@sit.com");
+		s1.setStudent_Age(25);
+
+		studentRepository.save(s1);*/
+		
+		
+		/*Optional<Student>  findById=studentRepository.findById(101);
+		if(findById.isPresent()) {
+			System.out.println(findById.get().toString());
+		}*/
+		
+		Iterable<Student> findAllById = studentRepository.findAllById(Arrays.asList(101,102,103));
+		
+		for (Student student : findAllById) {
+		      System.out.println(student.getStudentId());
+		}
+		 
+		context.close();
+		
+		
+	}
+
+}

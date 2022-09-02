@@ -1,0 +1,33 @@
+server:
+  port: 1234
+  
+spring:
+  application:
+    name: CLIENT APP 1  
+  
+  boot:
+    admin:
+      client:
+        url: http://localhost:8989/
+        
+  
+info:
+  app:
+  name : Boot-Actuator-proj
+  version: 1.0
+  developer: Abdul Sai
+  mail: abdul@it.com
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        exclude: beans,mappings
+        
+  endpoint:
+    shutdown:
+     enabled: true
+        
+        
+      

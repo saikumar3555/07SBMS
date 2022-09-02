@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;19-SB-REST-GET-PathParam&apos; to &apos;20-SB-REST-GET-PathParam-apa1006&apos;&#x0D;&#x0A;- Original element: &apos;19-SB-REST-GET-PathParam&apos;&#x0D;&#x0A;- Renamed element: &apos;19-SB-REST-GET-PathParam&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;19-SB-REST-GET-PathParam&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=19-SB-REST-GET-PathParam" name="20-SB-REST-GET-PathParam-apa1006" references="true" stamp="1617165167006" version="1.0"/>
+</session>

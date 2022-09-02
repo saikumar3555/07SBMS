@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ApplicationTests.java&apos; to &apos;target&apos;&#x0D;&#x0A;- Original project: &apos;07-SB-DATA-JPA-Pagination&apos;&#x0D;&#x0A;- Destination element: &apos;target&apos;&#x0D;&#x0A;- Original element: &apos;com.sit.ApplicationTests.java&apos;" description="Copy compilation unit" element1="/src\/test\/java&lt;com.sit{ApplicationTests.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1612776055101" target="/07-SB-DATA-JPA-Pagination/target" units="1" version="1.0"/>
+</session>

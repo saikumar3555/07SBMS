@@ -1,0 +1,15 @@
+server:
+  port: 4444
+spring:
+  application:
+    name: ZUEAL_PROXY 
+    
+zuul: 
+ prefix: /ms   
+ routes:
+   greet:
+      path: /api1/**
+      serviceId: GREET-API
+   welcome:
+      path: /api2/**
+      serviceId: WELCOME-API

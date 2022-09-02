@@ -1,0 +1,11 @@
+server:
+  port: 2020
+  
+spring:
+  application:
+    name: GREET-API
+    
+#eureka:
+ # client:
+   # service-url:
+    #  defaultZone: ${DISCOVERY_URL:http://localhost:8769}/eureka
